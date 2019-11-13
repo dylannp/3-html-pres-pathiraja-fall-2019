@@ -1,0 +1,94 @@
+.myslides {display:none;}
+body {
+    margin: auto;
+}
+
+body, html, section {
+    width:100%;
+    height:100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+}
+
+.fs-img-1 {
+  /* The image used */
+  background-image: url("/img/img3pencils");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-2 {
+  /* The image used */
+  background-image: url("/img/img2_stars.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.fs-img-3 {
+  /* The image used */
+  background-image: url("/img/img4Slide3Athlete.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-4 {
+  /* The image used */
+  background-image: url(INSERT IMAGE HERE);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.black-shadow {
+    text-shadow: 4px 4px 10px rgba(0,0,0);
+}
+
+.caption {
+    font-size: 9px;
+}
+
+span .caption {
+    font-size: 5px;
+}
+    
+#video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+    
+   figure {
+    margin: 0;
+} 
+    
