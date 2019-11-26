@@ -65,6 +65,47 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
 }
 
+.fs-img-5 {
+  /* The image used */
+  background-image: url("/img/img5_field.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.black-shadow {
+    text-shadow: 4px 4px 10px rgba(0,0,0);
+}
+
+.caption {
+    font-size: 9px;
+}
+
+span .caption {
+    font-size: 5px;
+}
+    
+#video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+    
+   figure {
+    margin: 0;
+} 
+    
+
 
 .black-shadow {
     text-shadow: 4px 4px 10px rgba(0,0,0);
